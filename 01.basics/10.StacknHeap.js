@@ -6,7 +6,7 @@
 
 */
 
-/* heap memory ( non primitive/ reference)
+/* heap memory ( non primitive/ reference) //
 
 [   ]
 
