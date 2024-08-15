@@ -71,7 +71,7 @@ Object
 Function
 */
 
-//array
+//array//
 
 
 const heros =["shaktiman","nagraj","doga"]
