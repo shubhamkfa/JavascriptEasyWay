@@ -14,7 +14,7 @@ console.log(balance); // [Number: 5000]
 
 console.log(score.toFixed(2)); // 
 
-// console.log(balance.toString().length)
+// console.log(balance.toString().length)//
 
 const otherNumber = 254.325
 console.log(otherNumber.toPrecision(4));//254.3  ( 4 number nantar je ahe te 5 chya var asel tr round off honar nhit je ahe te )
