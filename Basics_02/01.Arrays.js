@@ -74,19 +74,22 @@ const newArr = myArr.join()
 
 // slice , splice  ( writtens a section of array )
 
-const myArrr= [0,1,2,3,4,5]
+const myArrr= [0o0,10,20,30,40,50]
 
-console.log("A ",myArrr);
-const myn1 = myArrr .slice(1,3)
+console.log("A Origional",myArrr);
 
-console.log("slice:", myn1);
+const newAfterSlice = myArrr.slice(1,5)
 
-console.log("B Origional :", myArrr);
+console.log("slice:", newAfterSlice);
+
+console.log("Origional after Slice ( no changes in origional array ):", myArrr);
 
 
-const myn2 = myArrr.splice(1,3)
-console.log("Splice : ",myn2);
-console.log(myn2);
+
+
+const newAfterSplice = myArrr.splice(1,4)
+console.log("Splice result : ",newAfterSplice);
+console.log("Origional after splice (changes in origional array ) :",myArrr);
 
 
 
