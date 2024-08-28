@@ -91,6 +91,8 @@ const newAfterSplice = myArrr.splice(1,4)
 console.log("Splice result : ",newAfterSplice);
 console.log("Origional after splice (changes in origional array ) :",myArrr);
 
+//
+
 
 
 
