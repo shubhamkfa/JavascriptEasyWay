@@ -11,7 +11,7 @@ const dc_heros = ["supeman","flash","batman"]
 
 
 // const allheros= marvel_heros.concat(dc_heros)
-// console.log(allheros);
+// console.log(allheros);//
 
 
 //****we can use this aray only *********spread ...  we can spread glass drop kiya and glass spread hua 
