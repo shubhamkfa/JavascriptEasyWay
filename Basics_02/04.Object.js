@@ -19,7 +19,7 @@ const jsUser = {
 
 
 }
-//two way to print onject value
+//two way to print onject value//
 //method 1
 
 // console.log(jsUser.location);
