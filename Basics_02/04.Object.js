@@ -2,7 +2,7 @@
 // Singleton 
 // Object.create // constructor
 
-//object Literals
+//object Literals//
 
 const mySymbol = Symbol ("Key1")
 
