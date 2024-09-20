@@ -1,8 +1,7 @@
-
 // Singleton 
 // Object.create // constructor
 
-//object Literals//
+//object Literals
 
 const mySymbol = Symbol ("Key1")
 
@@ -19,13 +18,16 @@ const jsUser = {
 
 
 }
-//two way to print onject value//
+//two way to print onject value
 //method 1
 
 // console.log(jsUser.location);
 //method 2 
 //
 // console.log(jsUser["age"]);
+// console.log(jsUser.lastLoginDays);
+
+// console.table(jsUser)
 
 // console.log(jsUser["full Name"]);
 
@@ -40,7 +42,7 @@ jsUser.age = 30
 // console.log(jsUser);
 
 jsUser.age = 45 
-// console.log(jsUser);//
+// console.log(jsUser);
 
 
 
@@ -51,6 +53,7 @@ jsUser.greeting = function(){
 console.log(jsUser.greeting());
 
 
+// same object reference then we have to use this.onject name 
 
 jsUser.greeting2 = function(){
     console.log(`"Hello JS User", ${this.name} and my age is ${this.age}`);
